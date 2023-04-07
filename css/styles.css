@@ -386,13 +386,16 @@ body {
 }
 
 .portfolio-container {
-  padding: 96px 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .filter {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
