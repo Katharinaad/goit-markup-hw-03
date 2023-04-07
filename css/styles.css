@@ -66,6 +66,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-web {
@@ -96,6 +97,7 @@ body {
 .navigation {
   display: flex;
   margin-right: auto;
+  align-items: center;
 }
 
 .page-nav .link {
@@ -124,6 +126,7 @@ body {
 
 .address {
   display: flex;
+  gap: 40px;
 }
 
 .address .link {
@@ -133,10 +136,6 @@ body {
 }
 .address-information {
   font-style: normal;
-}
-
-.address-item-email {
-  margin-right: 40px;
 }
 
 .address-information .link {
@@ -161,18 +160,16 @@ body {
 }
 
 .hero-container {
-  box-sizing: content-box;
+  padding: 188px 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 .hero-title {
-  min-width: 494px;
-  margin-top: 188px;
-  margin-right: 473px;
+  max-width: 496px;
   margin-bottom: 48px;
-  margin-left: 473px;
 
   color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
@@ -180,6 +177,32 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+/* Button */
+
+.btn {
+  display: block;
+  border: none;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 4px;
+
+  color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--button-color);
 }
 
 /* Section */
@@ -198,7 +221,7 @@ body {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin: 8px;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -222,32 +245,6 @@ body {
   flex-basis: calc((100% - (24px * 3)) / 4);
 }
 
-/* Button */
-
-.button {
-  border: none;
-  margin: 0;
-
-  min-width: 169px;
-  min-height: 56px;
-  padding: 16px 32px;
-  border-radius: 4px;
-
-  color: var(--primary-white-color);
-  font-family: Roboto, sans-serif;
-  background-color: var(--accent-color);
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-.button:hover,
-.button:focus {
-  background-color: var(--button-color);
-}
-
 .team-subtitle {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
@@ -256,6 +253,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .description {
@@ -293,6 +291,7 @@ body {
 
 .colleague {
   padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-team {
@@ -319,16 +318,20 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   width: 264px;
-  margin-top: 140px;
+  padding: 100px 0;
+}
+
+/*  margin-top: 140px;
   margin-right: 1020px;
   margin-bottom: 100px;
-  margin-left: 156px;
-}
+  margin-left: 156px; */
+
 .section-footer {
   background-color: var(--title-text-color);
 }
 
 .logo-web-footer {
+  display: inline-block;
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -355,6 +358,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /* Portfolio */
