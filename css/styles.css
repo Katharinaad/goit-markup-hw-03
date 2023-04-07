@@ -63,10 +63,13 @@ body {
 
 /* Logo */
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-web {
@@ -157,10 +160,10 @@ body {
 
 .hero {
   background: var(--title-text-color);
+  padding: 188px 0;
 }
 
 .hero-container {
-  padding: 188px 0;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -221,7 +224,7 @@ body {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: 8px;
+  margin-bottom: 8px;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -312,13 +315,13 @@ body {
 
 /* Footer */
 
+.section-footer {
+  padding: 100px 0;
+}
+
 .footer-container {
   box-sizing: content-box;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   width: 264px;
-  padding: 100px 0;
 }
 
 /*  margin-top: 140px;
@@ -343,6 +346,7 @@ body {
 }
 
 .logo-studio-footer {
+  display: inline-block;
   color: var(--secondary-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
