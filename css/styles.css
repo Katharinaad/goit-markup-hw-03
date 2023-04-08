@@ -39,11 +39,6 @@ img {
 
 /* reset end */
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .container {
   width: 1158px;
   margin-left: auto;
@@ -233,6 +228,19 @@ body {
   overflow: hidden;
 }
 
+.section-services {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-examples {
+  padding-bottom: 120px;
+}
+
+.section-team {
+  padding-bottom: 120px;
+}
+
 /* Features & Services */
 .feature-services .title {
   color: var(--title-text-color);
@@ -298,7 +306,6 @@ body {
 
 .colleague {
   padding: 32px 16px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .section-team {
@@ -307,6 +314,7 @@ body {
 
 .picture-frame {
   background-color: var(--primary-white-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .profession {
@@ -324,12 +332,6 @@ body {
 }
 
 .footer-container {
-  box-sizing: content-box;
-  width: 264px;
-  margin-top: 140px;
-  margin-right: 1020px;
-  margin-bottom: 100px;
-  margin-left: 156px;
 }
 
 .section-footer {
@@ -394,9 +396,7 @@ body {
 
 .section-portfolio {
   padding-top: 96px;
-  padding-bottom: 96px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-bottom: 120px;
 }
 
 .filter {
@@ -411,7 +411,6 @@ body {
   display: block;
   border: none;
   margin: 0 auto;
-  min-width: 126px;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
 
@@ -467,5 +466,4 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
